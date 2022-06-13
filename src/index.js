@@ -1,2 +1,5 @@
-alert("working");
-alert("now");
+import loadPage from "./page-load";
+
+window.onload = () => {
+    loadPage();
+}
