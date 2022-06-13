@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#title {
+    padding-left: 4rem;
+    font-size: 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding-right: 2rem;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    align-self: center;
+}
